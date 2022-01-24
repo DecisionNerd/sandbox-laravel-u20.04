@@ -17,6 +17,14 @@ We recommend connecting to your multipass instance via SSH from VS Code
 
 A developer called [Ondřej Surý](https://deb.sury.org/) maintains packages for PHP which include the latest minor versions - he is awesome.
 
+### Prepare apt for Installation
+
+```sh
+sudo apt update
+sudo apt upgrade
+sudo apt install software-properties-common
+```
+
 ### You can install his repositories for PHP & NGINX:
 
 ```
