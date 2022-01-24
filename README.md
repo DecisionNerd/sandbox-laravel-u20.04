@@ -53,7 +53,7 @@ Note for Laravel deployment (also covered in sequence below): [Laravel Deploymen
 [PHP Homepage](https://www.php.net/)
 
 ```sh
-sudo apt install php7.4 php7.4-xml php7.4-mbstring php7.4-pgsql
+sudo apt install php7.4 php7.4-xml php7.4-mbstring php7.4-pgsql php7.4-mysql
 
 curl -LO https://phar.phpunit.de/phpunit-9.5.phar
 chmod +x phpunit-9.5.phar
