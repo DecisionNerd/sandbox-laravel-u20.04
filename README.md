@@ -38,6 +38,21 @@ sudo add-apt-repository ppa:ondrej/nginx
 sudo apt update
 sudo apt upgrade
 ```
+## SQL RDBMS Setup
+
+Laravel works out of the box with MySQL, PostgreSQL, and SQLite.  You need to have a database configured before configuring your new application.
+
+You will need to have values for the following settings in the `.env` file that configures your `config/database.php` file
+
+```
+DB_CONNECTION=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_DATABASE=db
+DB_USERNAME=root
+DB_PASSWORD=password
+```
+
 ## NGINX
 
 [NGINX Homepage](https://www.nginx.com/)
